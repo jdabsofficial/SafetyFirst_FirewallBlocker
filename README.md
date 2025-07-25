@@ -1,4 +1,4 @@
-# 🔒 SafetyFirst_FirewallBlocker Executables via Windows Firewall by @jdabsofficial
+# 🔒 SafetyFirst_FirewallBlocker by @jdabsofficial
 
 This is a simple Windows batch script that blocks every `.exe`, `.com`, `.scr`, and `.bat` file in a folder (and its subfolders) using the Windows Firewall.
 
