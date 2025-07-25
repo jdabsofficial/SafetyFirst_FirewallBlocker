@@ -19,7 +19,11 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
 > 🧠 **No coding needed** — just follow these steps.
 
 > 🔍 **Security Check**: If you're unsure about running this script, you can:  
-> **[View VirusTotal Analysis](https://www.virustotal.com/gui/url/9b0417dbf8ead672c45e43960825c9324480c0e46600601f9a0aef9db795756e?nocache=1)** (0/60 detections as of 2025-07-25)
+> **[View VirusTotal Analysis](https://www.virustotal.com/gui/file/36fb05ce0f00bd2c01abc96434e827f847cc884714325fba2c11e360f5cbe25b?nocache=1)** (0/60 detections as of 2025-07-25)
+> - **Hashes**:
+>   - **MD5**: `82c3229cef96f1fe2ad7b53a3d8e068c`
+>   - **SHA-1**: `337dbdb1443fb0e18789972d2ac1233078199855`
+>   - **SHA-256**: `36fb05ce0f00bd2c01abc96434e827f847cc884714325fba2c11e360f5cbe25b`
 
 ---
 
