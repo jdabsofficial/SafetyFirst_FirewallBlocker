@@ -26,7 +26,6 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
 1. **Backup Your Firewall Rules (DO THIS FIRST) (IMPORTANT!)**
    ```cmd
    netsh advfirewall export "%UserProfile%\Desktop\firewall-backup.wfw"
-
 2. **Download the Script Above**
    ```cmd
    Download the Script Above SafetyFirst_FirewallBlocker.cmd
