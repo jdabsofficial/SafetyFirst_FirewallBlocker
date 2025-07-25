@@ -1,8 +1,8 @@
 # 🔒 SafetyFirst Firewall Blocker by @jdabsofficial
 
-This is a simple Windows batch script that blocks every `.exe`, `.com`, `.scr`, and `.bat` file in a folder (and its subfolders) using the Windows Firewall.
+This is a simple Windows batch script that blocks every .exe, .com, .scr, and .bat file in a folder (and its subfolders) using the Windows Firewall.
 
-It’s useful if you want to stop unknown apps from accessing the internet, or if you’re testing untrusted files.
+It’s especially useful for blocking cracked or suspicious applications from accessing the internet, or when testing untrusted files in a controlled environment.
 
 ---
 
