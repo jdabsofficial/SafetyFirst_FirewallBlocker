@@ -17,7 +17,9 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
 ## ⚙️ How To Use
 
 > 🧠 **No coding needed** — just follow these steps.
->  If you're unsure about running this script, you can: [View VirusTotal Analysis (https://www.virustotal.com/gui/url/9b0417dbf8ead672c45e43960825c9324480c0e46600601f9a0aef9db795756e?nocache=1) (0/60 detections as of 2025-07-25)
+
+> 🔍 **Security Check**: If you're unsure about running this script, you can:  
+> **[View VirusTotal Analysis](https://www.virustotal.com/gui/url/9b0417dbf8ead672c45e43960825c9324480c0e46600601f9a0aef9db795756e?nocache=1)** (0/60 detections as of 2025-07-25)
 
 ---
 
