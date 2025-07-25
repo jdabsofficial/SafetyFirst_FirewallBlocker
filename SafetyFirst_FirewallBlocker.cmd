@@ -22,6 +22,6 @@ for /R %%F in (*.exe *.com *.scr *.bat) do (
 )
 
 echo.
-echo ✅ Done. Executables in this folder are now blocked from internet access.
+echo ✅ Done. Executables in this folder are now blocked from internet access. 
 echo 🔁 You can restore the firewall using the backup file if needed.
 pause
