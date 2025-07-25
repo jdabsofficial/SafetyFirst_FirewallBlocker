@@ -18,7 +18,7 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
 
 > 🧠 **No coding needed** — just follow these steps.
 
-
+---
 
 ### 🔐 Step-by-Step Guide
 
@@ -26,8 +26,9 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
    ```cmd
    netsh advfirewall export "%UserProfile%\Desktop\firewall-backup.wfw"
 
-2. **Download the Script Above** - SafetyFirst_FirewallBlocker.cmd
-
+2. **Download the Script Above**
+   ```cmd
+   Download the Script Above SafetyFirst_FirewallBlocker.cmd
 3. **Place the Script**
     ```cmd
     Move the .cmd file to the folder containing executables you want to block
@@ -35,8 +36,8 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
     ```cmd
     Move the .cmd file to the folder containing executables you want to block
 5. **Verification** (Optional)
-    ```cmd
-    Check Windows Firewall rules to confirm new block rules exist
+   ```cmd
+   Check Windows Firewall rules to confirm new block rules exist
 
 ---
 
@@ -52,5 +53,6 @@ If something goes wrong or you want to undo everything:
 ```cmd
 netsh advfirewall import "%UserProfile%\Desktop\firewall-backup.wfw"
 
+---
 
 ### All rights reserved @JDabsOfficial 2025
