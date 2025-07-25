@@ -54,6 +54,23 @@ If something goes wrong or you want to undo everything:
 1. Go to your Desktop.
 2. Find the file: `firewall-backup.wfw`
 3. Double-click it or run this command in CMD:
+   ```cmd
+   netsh advfirewall import "%UserProfile%\Desktop\firewall-backup.wfw"
 
-```cmd
-netsh advfirewall import "%UserProfile%\Desktop\firewall-backup.wfw"
+---
+
+
+### ⚠️ Safety & Usage Notes
+
+> **🔐 Backup First**  
+> Always export firewall rules before running (`netsh advfirewall export`)
+
+> **🚫 Restricted Locations**  
+> Never run from system directories (`C:\Windows`, `C:\Program Files`)
+
+> **🔄 Reverting Changes**  
+> - Delete rules manually via Windows Firewall  
+> - Or restore from your `.wfw` backup file
+
+> **🔍 Monitoring**  
+> Check Windows Security logs for blocked connection attempts
