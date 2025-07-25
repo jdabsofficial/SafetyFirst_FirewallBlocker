@@ -34,7 +34,7 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
     Move the .cmd file to the folder containing executables you want to block
 4. **Run the Script**
     ```cmd
-    Right-click → **"Run as Administrator"**
+    Right-click → "Run as Administrator"
 5. **Verification** (Optional)
    ```cmd
    Check Windows Firewall rules to confirm new block rules exist
