@@ -51,5 +51,3 @@ If something goes wrong or you want to undo everything:
 
 ```cmd
 netsh advfirewall import "%UserProfile%\Desktop\firewall-backup.wfw"
-
-
