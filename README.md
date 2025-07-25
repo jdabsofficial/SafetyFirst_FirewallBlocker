@@ -18,19 +18,25 @@ It’s useful if you want to stop unknown apps from accessing the internet, or i
 
 > 🧠 **No coding needed** — just follow these steps.
 
-### 🔐 Step 1 — Backup Your Firewall Rules (DO THIS FIRST)
 
-Before running the script, open Command Prompt and run:
 
-```cmd
-netsh advfirewall export "%UserProfile%\Desktop\firewall-backup.wfw"
+### 🔐 Step-by-Step Guide
 
-### 🔐 Additional Steps
+1. **Backup Your Firewall Rules (DO THIS FIRST) (IMPORTANT!)**
+   ```cmd
+   netsh advfirewall export "%UserProfile%\Desktop\firewall-backup.wfw"
 
-2. **Download** the script file: `SafetyFirst_FirewallBlocker.cmd`.
-3. **Place** the `SafetyFirst_FirewallBlocker.cmd` file in the folder that contains the executables you want to block.
-4. **Right-click** the file and **Run as Administrator**.
-5. Done. All `.exe`, `.com`, `.scr`, and `.bat` files inside that folder and subfolders are now blocked.
+2. **Download the Script Above** - SafetyFirst_FirewallBlocker.cmd
+
+3. **Place the Script**
+    ```cmd
+    Move the .cmd file to the folder containing executables you want to block
+4. **Run the Script**
+    ```cmd
+    Move the .cmd file to the folder containing executables you want to block
+5. **Verification** (Optional)
+    ```cmd
+    Check Windows Firewall rules to confirm new block rules exist
 
 ---
 
@@ -47,4 +53,4 @@ If something goes wrong or you want to undo everything:
 netsh advfirewall import "%UserProfile%\Desktop\firewall-backup.wfw"
 
 
-# All rights reserved @JDabsOfficial 2025
+### All rights reserved @JDabsOfficial 2025
